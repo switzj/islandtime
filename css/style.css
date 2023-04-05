@@ -62,3 +62,17 @@ header {
   nav ul li:hover > .dropdown {
     display: block;
   }
+
+  /* Footer navigation */
+.footer-nav {
+    text-align: center;
+  }
+  
+  .footer-nav li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-nav li:last-child {
+    margin-bottom: 0;
+  }
+    

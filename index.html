@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title</title>
+    <title>SwitzJ</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -39,9 +39,25 @@
         </nav>
       </header>
       
-    <!-- Page content goes here -->
+    </main>
 
-    <script src="js/script.js"></script>
+    <footer>
+      <nav>
+          <ul class="footer-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="myplace.html">MyPlace</a></li>
+              <li><a href="mcoa.html">MCoA</a></li>
+              <li><a href="btsd.html">BTSD</a></li>
+          </ul>
+      </nav>
+      <p>&copy; <span id="currentYear"></span> SwitzJ. All rights reserved. | Site by <a href="https://example.com" target="_blank">switzj</a></p>
+  </footer>
+  
+  <script>
+      document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
 
